@@ -1,0 +1,20 @@
+{
+  "name": "lazychillroom_windows",
+  "version": "1.0.0",
+  "description": "Discord-like chat application built with Electron",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "electron": "^37.2.5"
+  }
+}
